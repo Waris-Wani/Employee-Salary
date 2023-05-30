@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee-Salary</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Employee Salary </h1>
+    <form>
+      <label for="name">Name of the Employee:</label>
+      <input type="text" id="name" placeholder="Enter employee name">
+
+      <label for="designation">Designation of the Employee:</label>
+      <input type="text" id="designation" placeholder="Enter employee designation">
+
+      <label for="month">Salary for the month of:</label>
+      <input type="month" id="month">
+
+      <label for="contact">Contact No:</label>
+      <input type="text" id="contact" placeholder="Enter contact number">
+
+      <label for="address">Address:</label>
+      <textarea id="address" rows="3" placeholder="Enter employee address"></textarea>
+
+      <label for="gross-pay">Gross Pay:</label>
+      <input type="number" id="gross-pay" placeholder="Enter gross pay">
+
+      <label for="leave-days">Leave Days:</label>
+      <input type="number" id="leave-days" placeholder="Enter leave days">
+
+      <button type="button" onclick="calculateNetSalary()">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

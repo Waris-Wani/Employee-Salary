@@ -1,0 +1,52 @@
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: aqua;
+    border-radius: 15%;
+    border-style: groove;
+    border-color: black;
+    
+
+}
+
+h1{
+
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: bisque;
+}
+
+input[type="text"],
+input[type="month"],
+input[type="date"],
+input[type="number"],
+textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: lawngreen;
+    width: 100%;
+    padding: 10px;
+    font-size:16px ;
+    border: none;
+    cursor: pointer;
+}
